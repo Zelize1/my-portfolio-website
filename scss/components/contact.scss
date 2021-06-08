@@ -1,0 +1,52 @@
+.contact-form {
+    width: 45%;
+    margin: auto;
+    margin-top: 3%;
+}
+
+label {
+    color: white;
+}
+
+.contact-container {
+    margin: auto;
+    width: 45%;
+}
+
+.linebreak {
+    width: 45%;
+    color: white;
+    margin: auto;
+    border: none;
+    height: 4px;
+}
+
+.contact-title {
+    color: #975D07;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 36px;
+}
+
+.contact-text {
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    font-size: 25px;
+}
+
+.submit-button {
+    background-color: #975D07;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    
+}
+
+@media only screen and (max-width: 1200px) {
+    .contact-form, .contact-container, .linebreak {
+        width: 65%;
+    }
+}

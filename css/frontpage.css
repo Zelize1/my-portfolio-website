@@ -1,0 +1,32 @@
+.container .my-name {
+  max-width: 900px;
+  margin: auto;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  color: #975D07;
+  font-size: 59px;
+}
+
+.container p {
+  margin: auto;
+  max-width: 900px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 300;
+  color: white;
+  font-size: 59px;
+}
+
+.container {
+  padding-top: 5%;
+}
+
+@media only screen and (max-width: 600px) {
+  .container .my-name, .container p {
+    font-size: 45px;
+    width: 80%;
+  }
+  .container {
+    padding-top: 25%;
+  }
+}
+/*# sourceMappingURL=frontpage.css.map */

@@ -1,0 +1,49 @@
+.card-title {
+  color: #975D07;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+}
+
+.card-img-top {
+  height: 55vh;
+  -o-object-fit: contain;
+     object-fit: contain;
+  margin: auto;
+  background-color: rgba(255, 255, 255, 0.5);
+  border-radius: 10px;
+  padding: 5px;
+}
+
+.card .bg-transparent {
+  margin: auto;
+  width: 25%;
+}
+
+.row .col .card {
+  margin: auto;
+  margin-top: 20px;
+}
+
+.row .col .card-text {
+  font-family: 'Montserrat', sans-serif;
+  color: white;
+}
+
+.card-text a {
+  color: white;
+  margin-right: 4px;
+}
+
+.card-text a:hover {
+  color: #975D07;
+}
+
+@media only screen and (max-width: 900px) {
+  .card .row .col-md-4 img {
+    margin-left: 100px;
+  }
+  .col-md-8 .card-body {
+    margin-left: 85px;
+  }
+}
+/*# sourceMappingURL=portfolio.css.map */

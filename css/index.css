@@ -1,0 +1,10 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500&display=swap");
+/* Light: 300
+Medium: 500 */
+@import url("../css/layout.css");
+@import url("../css/frontpage.css");
+@import url("../css/portfolio.css");
+@import url("../css/about.css");
+@import url("../css/contact.css");
+@import url("../css/errormessage.css");
+/*# sourceMappingURL=index.css.map */

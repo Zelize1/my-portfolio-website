@@ -1,0 +1,37 @@
+body {
+  background-image: url(../img/background-6.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 100%;
+}
+
+html {
+  height: 100%;
+}
+
+.navbar-brand img {
+  width: 120px;
+  height: auto;
+  margin-left: 30px;
+}
+
+.navbar-brand:hover {
+  color: #975D07;
+}
+
+.nav-link1 {
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 300;
+  margin-right: 60px;
+  text-decoration: none;
+}
+
+.nav-link1:hover {
+  color: #975D07;
+}
+
+.navbar-toggler {
+  color: white;
+}
+/*# sourceMappingURL=layout.css.map */
